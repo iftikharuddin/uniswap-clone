@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="816d09fd-78f2-457e-9b35-0006d46aab06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/HeroSection/HeroSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/HeroSection/HeroSection.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/Model/Model.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/Model/Model.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/NavBar/NavBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/NavBar/NavBar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/SearchToken/SearchToken.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/SearchToken/SearchToken.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/Toggle/Toggle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/Toggle/Toggle.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/TokenList/TokenList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/TokenList/TokenList.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697491190034</updated>
-      <workItem from="1697491191445" duration="1437000" />
+      <workItem from="1697491191445" duration="1776000" />
     </task>
     <servers />
   </component>
