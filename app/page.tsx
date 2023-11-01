@@ -1,5 +1,10 @@
+import {NavBar} from "../Components/index";
+
 export default function Home() {
   return (
-      <div>Home</div>
+      <div>
+        <NavBar/>
+        Home
+      </div>
   )
 }
