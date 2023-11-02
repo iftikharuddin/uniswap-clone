@@ -4,6 +4,7 @@ import NavBar from "./NavBar/NavBar";
 import SearchToken from "./SearchToken/SearchToken";
 import Toggle from "./Toggle/Toggle";
 import TokenList from "./TokenList/TokenList";
+import AllTokens from "./AllTokens/AllTokens";
 
 export {
     HeroSection,
@@ -11,5 +12,6 @@ export {
     NavBar,
     SearchToken,
     Toggle,
-    TokenList
+    TokenList,
+    AllTokens
 }
