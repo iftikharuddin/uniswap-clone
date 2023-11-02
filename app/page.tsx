@@ -11,7 +11,6 @@ export default function Home() {
           <SwapTokenContextProvider>
             <NavBar/>
             <HeroSection accounts="hey" tokenData="DATA" />
-            Home
           </SwapTokenContextProvider>
       </div>
   )

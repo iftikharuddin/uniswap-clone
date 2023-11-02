@@ -1,6 +1,6 @@
 ## Uniswap Clone
 
-Uniswap clone in progress
+Uniswap clone in progress, UI Done, Smart contracts done.
 
 **Live DEMO**: https://uniswap-clone-rouge.vercel.app/
 
@@ -17,3 +17,8 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+
+# Topics:
+
+- Display Smart Contract Data | Build Uniswap Clone Using v3 Periphery | Defi Exchange
+- Live Single Swap Token From WETH9 To DAI | Uniswap Clone Single Swap Frontend | Web3 Defi Exchange
