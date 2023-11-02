@@ -2,27 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="816d09fd-78f2-457e-9b35-0006d46aab06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/Search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/arrow up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/arrowdown1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/cross.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/ether.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/etherlogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/homeicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/leftarrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/tick.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/uniswap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/wallet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Token/Token.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Components/Token/Token.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context/ERC20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context/SwapContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context/WETH9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Context/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/addLiquidity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/appFeatures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/checkLiquidity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/deployPool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/fetchingPrice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/priceHelpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/swapUpdatePrice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/ERC20Boo.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/ERC20Life.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/Interfaces/IWETH.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/SwapMultiHop.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/SwapToken.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Liqudity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/SingleSwap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/SwapMultiHop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Model/Model.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Model/Model.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Model/Model.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Model/Model.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/HeroSection/HeroSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Components/HeroSection/HeroSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/HeroSection/HeroSection.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Components/HeroSection/HeroSection.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Components/NavBar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Components/NavBar/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/NavBar/NavBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Components/NavBar/NavBar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/SearchToken/SearchToken.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Components/SearchToken/SearchToken.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/SearchToken/SearchToken.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Components/SearchToken/SearchToken.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Toggle/Toggle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Toggle/Toggle.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Toggle/Toggle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Toggle/Toggle.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/TokenList/TokenList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Components/TokenList/TokenList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/TokenList/TokenList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Components/TokenList/TokenList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,14 +61,21 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Context" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Context" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Context" />
+      <recent name="$PROJECT_DIR$/contracts" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/Components/Token" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -80,7 +102,8 @@
       <updated>1697491190034</updated>
       <workItem from="1697491191445" duration="2003000" />
       <workItem from="1698829986336" duration="3471000" />
-      <workItem from="1698863388879" duration="697000" />
+      <workItem from="1698863388879" duration="2665000" />
+      <workItem from="1698907818358" duration="14113000" />
     </task>
     <servers />
   </component>

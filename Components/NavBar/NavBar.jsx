@@ -9,11 +9,11 @@ import images from "../../assets";
 import { Model, TokenList } from "../index";
 
 //CONTEXT
-// import { SwapTokenContext } from "../../Context/SwapContext";
+import { SwapTokenContext } from "../../Context/SwapContext";
 
 const NavBar = () => {
-    // const { ether, account, networkConnect, connectWallet, tokenData } =
-        // useContext(SwapTokenContext);
+    const { ether, account, networkConnect, connectWallet, tokenData } =
+        useContext(SwapTokenContext);
     const menuItems = [
         {
             name: "Swap",
@@ -66,24 +66,23 @@ const NavBar = () => {
                         <div className={Style.NavBar_box_right_box_img}>
                             <Image src={images.ether} alt="NetWork" height={30} width={30} />
                         </div>
-                        {/*<p>{networkConnect}</p>*/}
-                        <p>Network Name</p>
+                        <p>{networkConnect}</p>
                     </div>
-                    {/*{account ? (*/}
-                    {/*    <button onClick={() => setOpenTokenBox(true)}>*/}
-                    {/*        {account.slice(0, 20)}..*/}
-                    {/*    </button>*/}
-                    {/*) : (*/}
+                    {account ? (
+                        <button onClick={() => setOpenTokenBox(true)}>
+                            {account.slice(0, 20)}..
+                        </button>
+                    ) : (
                         <button onClick={() => setOpenModel(true)}>Connect</button>
-                    {/*)}*/}
+                    )}
 
                     {openModel && (
-                        <Model setOpenModel={setOpenModel} connectWallet="Address" />
+                        <Model setOpenModel={setOpenModel} connectWallet={connectWallet} />
                     )}
                 </div>
             </div>
 
-             {/*//TOTENLIST COMPONENT*/}
+            {/* //TOTENLIST COMPONENT */}
             {openTokenBox && (
                 <TokenList tokenDate={tokenData} setOpenTokenBox={setOpenTokenBox} />
             )}
