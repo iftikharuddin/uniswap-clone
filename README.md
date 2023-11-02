@@ -1,6 +1,6 @@
 ## Uniswap Clone
 
-Uniswap clone in progress
+Uniswap clone in progress, UI Done, Smart contracts done.
 
 **Live DEMO**: https://uniswap-clone-rouge.vercel.app/
 
