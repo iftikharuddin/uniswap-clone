@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const ETHERSCAN_API_KEY = "WCEZKZEQUBKEFBU32GJYYV7F9YM8G3HJEG";
+const ETHERSCAN_API_KEY = "IC578UAEISUN7P6JXHD2HGNIX51EAVK1JJ";
 
 exports.getAbi = async (address) => {
   const url = `https://api.etherscan.io/api?module=contract&action=getabi&address=${address}&apikey=${ETHERSCAN_API_KEY}`;

@@ -2,14 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="816d09fd-78f2-457e-9b35-0006d46aab06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Components/PoolAdd/PoolAdd.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/PoolAdd/PoolAdd.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/PoolConnect/PoolConnect.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Components/PoolConnect/PoolConnect.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Pools/Pools.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Pools/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Context/SingleSwapToken.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Context/SwapContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/Context/SwapContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/fetchingPrice.js" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/fetchingPrice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/priceHelpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/priceHelpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/swapUpdatePrice.js" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/swapUpdatePrice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/@openzeppelin/contracts/token/ERC20/ERC20.sol/ERC20.dbg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/@openzeppelin/contracts/token/ERC20/ERC20.sol/ERC20.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/@openzeppelin/contracts/token/ERC20/IERC20.sol/IERC20.dbg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/@openzeppelin/contracts/token/ERC20/IERC20.sol/IERC20.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/@openzeppelin/contracts/utils/Context.sol/Context.dbg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/@openzeppelin/contracts/utils/Context.sol/Context.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/@uniswap/v3-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol/IUniswapV3SwapCallback.dbg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/@uniswap/v3-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol/IUniswapV3SwapCallback.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/@uniswap/v3-periphery/contracts/interfaces/ISwapRouter.sol/ISwapRouter.dbg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/@uniswap/v3-periphery/contracts/interfaces/ISwapRouter.sol/ISwapRouter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/@uniswap/v3-periphery/contracts/libraries/TransferHelper.sol/TransferHelper.dbg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/@uniswap/v3-periphery/contracts/libraries/TransferHelper.sol/TransferHelper.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/contracts/ERC20Boo.sol/BooToken.dbg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/contracts/ERC20Life.sol/LifeToken.dbg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/contracts/Interfaces/IWETH.sol/IWETH.dbg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/contracts/SwapMultiHop.sol/SwapMultiHop.dbg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifacts/contracts/SwapToken.sol/SingleSwapToken.dbg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/solidity-files-cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/SwapToken.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/SwapToken.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardhat.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/hardhat.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/deploy.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deploy.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
