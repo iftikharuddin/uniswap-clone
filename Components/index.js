@@ -5,6 +5,8 @@ import SearchToken from "./SearchToken/SearchToken";
 import Toggle from "./Toggle/Toggle";
 import TokenList from "./TokenList/TokenList";
 import AllTokens from "./AllTokens/AllTokens";
+import PoolConnect from "./PoolConnect/PoolConnect";
+import PoolAdd from "./PoolAdd/PoolAdd";
 
 export {
     HeroSection,
@@ -13,5 +15,7 @@ export {
     SearchToken,
     Toggle,
     TokenList,
-    AllTokens
+    AllTokens,
+    PoolAdd,
+    PoolConnect
 }
