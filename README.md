@@ -27,3 +27,4 @@ npx hardhat run scripts/deploy.js
 - Uniswap Pool Page | Build Best (Defi Project) Decentralized Exchange | Complete Next Js Project [ IP ]
 - How To Use & Create Uniswap v3 SDK | Uniswap Clone Project
 - Fetching Price Function | How TO Build Uniswap Fetching Price Data | Build Uniswap Clone 2022
+- Swap Update Price Function Script | How To Build Script For Getting Update Price Uniswap V3 SDK

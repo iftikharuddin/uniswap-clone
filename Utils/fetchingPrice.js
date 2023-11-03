@@ -10,7 +10,7 @@ const {
 const { getAbi, getPoolImmutables } = require("./priceHelpers");
 
 const MAINNET_URL =
-  "https://eth-mainnet.g.alchemy.com/v2/opB4Iw25A0nPWESS7wHxPb_JKigMmAPD";
+  "https://eth-mainnet.g.alchemy.com/v2/WVLSt5IbgWV6vZHiDtRgVZ92tx2E2zwv";
 
 const provider = new ethers.providers.JsonRpcProvider(MAINNET_URL);
 

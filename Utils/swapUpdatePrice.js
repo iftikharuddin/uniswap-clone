@@ -9,7 +9,7 @@ const V3_SWAP_ROUTER_ADDRESS = "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45";
 const chainId = 1;
 
 const provider = new ethers.providers.JsonRpcProvider(
-  "https://eth-mainnet.g.alchemy.com/v2/opB4Iw25A0nPWESS7wHxPb_JKigMmAPD"
+  "https://eth-mainnet.g.alchemy.com/v2/WVLSt5IbgWV6vZHiDtRgVZ92tx2E2zwv"
 );
 
 const router = new AlphaRouter({ chainId: chainId, provider: provider });
