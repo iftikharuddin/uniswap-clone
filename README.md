@@ -30,3 +30,11 @@ npx hardhat run scripts/deploy.js
 - Swap Update Price Function Script | How To Build Script For Getting Update Price Uniswap V3 SDK
 - Calling Function And Pool Data | Build Uniswap Clone Project 2022
 - Uninstall NPM Uniswap Packages | Reinstallation Of Import Uniswap Package | Uniswap Defi Project
+- Deploy Script For Uniswap Contract | Build Uniswap Clone Defi Project 2022 (IP)
+ 
+
+Packages installations:
+
+````
+npm i @nomiclabs/hardhat-ethers@2.1.1
+````
