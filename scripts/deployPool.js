@@ -1,15 +1,15 @@
 // Token addresses
-shoaibAddress = "0x0F527785e39B22911946feDf580d87a4E00465f0";
-rayyanAddrss = "0x1D3EDBa836caB11C26A186873abf0fFeB8bbaE63";
-popUpAddress = "0x9C85258d9A00C01d00ded98065ea3840dF06f09c";
+shoaibAddress= '0x3AeEBbEe7CE00B11cB202d6D0F38D696A3f4Ff8e';
+rayyanAddrss= '0xB2ff9d5e60d68A52cea3cd041b32f1390A880365';
+popUpAddress= '0xa68E430060f74F9821D2dC9A9E2CE3aF7d842EBe';
 
 // Uniswap contract address
-wethAddress = "0xCa57C1d3c2c35E667745448Fef8407dd25487ff8";
-factoryAddress = "0xc3023a2c9f7B92d1dd19F488AF6Ee107a78Df9DB";
-swapRouterAddress = "0x124dDf9BdD2DdaD012ef1D5bBd77c00F05C610DA";
-nftDescriptorAddress = "0xe044814c9eD1e6442Af956a817c161192cBaE98F";
-positionDescriptorAddress = "0xaB837301d12cDc4b97f1E910FC56C9179894d9cf";
-positionManagerAddress = "0x4ff1f64683785E0460c24A4EF78D582C2488704f";
+wethAddress= '0x92b0d1Cc77b84973B7041CB9275d41F09840eaDd';
+factoryAddress= '0x996785Fe937d92EDBF420F3Bf70Acc62ecD6f655';
+swapRouterAddress= '0x1Dbbf529D78d6507B0dd71F6c02f41138d828990';
+nftDescriptorAddress= '0xf18774574148852771c2631d7d06E2A6c8b44fCA';
+positionDescriptorAddress= '0x9f62EE65a8395824Ee0821eF2Dc4C947a23F0f25';
+positionManagerAddress= '0x20BBE62B175134D21b10C157498b663F048672bA';
 
 const artifacts = {
   UniswapV3Factory: require("@uniswap/v3-core/artifacts/contracts/UniswapV3Factory.sol/UniswapV3Factory.json"),
@@ -51,23 +51,23 @@ const factory = new Contract(
 );
 
 async function deployPool(token0, token1, fee, price) {
-  // const [owner] = await ethers.getSigners();
-  const MAINNET_URL = "test network url";
-
-  const WALLET_ADDRESS = "your";
-  const WALLET_SECRET = "your";
-  const provider = new ethers.providers.JsonRpcProvider(MAINNET_URL);
-  const wallet = new ethers.Wallet(WALLET_SECRET);
-  const signer = wallet.connect(provider);
+  const [owner] = await ethers.getSigners();
+  // const MAINNET_URL = "test network url";
+  //
+  // const WALLET_ADDRESS = "your";
+  // const WALLET_SECRET = "your";
+  // const provider = new ethers.providers.JsonRpcProvider(MAINNET_URL);
+  // const wallet = new ethers.Wallet(WALLET_SECRET);
+  // const signer = wallet.connect(provider);
   const create = await nonfungiblePositionManager
-    .connect(signer)
+    .connect(owner)
     .createAndInitializePoolIfNecessary(token0, token1, fee, price, {
       gasLimit: 5000000,
     });
 
   console.log(create);
   const poolAddress = await factory
-    .connect(signer)
+    .connect(owner)
     .getPool(token0, token1, fee);
   return poolAddress;
 }
