@@ -31,10 +31,19 @@ npx hardhat run scripts/deploy.js
 - Calling Function And Pool Data | Build Uniswap Clone Project 2022
 - Uninstall NPM Uniswap Packages | Reinstallation Of Import Uniswap Package | Uniswap Defi Project
 - Deploy Script For Uniswap Contract | Build Uniswap Clone Defi Project 2022 (IP)
- 
+- Deploy Token Script Locally | Uniswap Clone Project 2020
+- Deploy Pool Scripts | Create Uniswap Pool Before Deploy Liquidity | Uniswap Clone Project 2022
 
-Packages installations:
+
+# Packages installations:
 
 ````
 npm i @nomiclabs/hardhat-ethers@2.1.1
 ````
+
+
+# Contract Addys:
+
+shoaibAddress= '0xa68E430060f74F9821D2dC9A9E2CE3aF7d842EBe'
+rayyanAddrss= '0x8B64968F69E669faCc86FA3484FD946f1bBE7c91'
+popUpAddress= '0x9A86494Ba45eE1f9EEed9cFC0894f6C5d13a1F0b'
