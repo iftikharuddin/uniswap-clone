@@ -12,8 +12,8 @@ import {
   SwapMultiHopABI,
   IWETHAddress,
   IWETHABI,
-  // userStorageDataAddrss,
-  // userStorageDataABI,
+  userStorageDataAddrss,
+  userStorageDataABI,
 } from "../Context/constants";
 
 //CHECK IF WALLET IS CONNECT
@@ -152,8 +152,8 @@ export const connectingWithDAIToken = async () => {
 //USER CONTRACT CONNECTION---------
 export const fetchUserStorageContract = (signerOrProvider) =>
   new ethers.Contract(
-    // userStorageDataAddrss,
-    // userStorageDataABI,
+    userStorageDataAddrss,
+    userStorageDataABI,
     signerOrProvider
   );
 
@@ -163,6 +163,8 @@ export const connectingWithUserStorageContract = async () => {
     const web3modal = new Web3Modal();
     const connection = await web3modal.connect();
     const provider = new ethers.providers.Web3Provider(connection);
+    // const provider = new ethers.providers.JsonRpcProvider(connection);
+
     const signer = provider.getSigner();
     const contract = fetchUserStorageContract(signer);
     return contract;

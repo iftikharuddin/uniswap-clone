@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    experimental:{appDir: true}
+};
 
-module.exports = nextConfig
+// under next.config.js
+module.exports = {
+    optimizeFonts: false,
+    experimental:{appDir: true}
+};

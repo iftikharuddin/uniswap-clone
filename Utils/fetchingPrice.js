@@ -1,4 +1,4 @@
-const { ethers } = require("ethers");
+import { ethers, JsonRpcProvider } from "ethers";
 
 const {
   abi: IUniswapV3PoolABI,
@@ -13,6 +13,7 @@ const MAINNET_URL =
   "https://eth-mainnet.g.alchemy.com/v2/WVLSt5IbgWV6vZHiDtRgVZ92tx2E2zwv";
 
 const provider = new ethers.providers.JsonRpcProvider(MAINNET_URL);
+// const provider = new ethers.BrowserProvider(MAINNET_URL);
 
 const qutorAddress = "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6";
 

@@ -3,9 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="816d09fd-78f2-457e-9b35-0006d46aab06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Context/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/Context/constants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/appFeatures.js" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/appFeatures.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utils/fetchingPrice.js" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/fetchingPrice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utils/swapUpdatePrice.js" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/swapUpdatePrice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Pools/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/Pools/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +42,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Components" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -43,8 +53,8 @@
       <recent name="$PROJECT_DIR$/test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Tokens" />
       <recent name="$PROJECT_DIR$/Context" />
+      <recent name="$PROJECT_DIR$/app/Tokens" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -73,11 +83,17 @@
       <workItem from="1698829986336" duration="3471000" />
       <workItem from="1698863388879" duration="2665000" />
       <workItem from="1698907818358" duration="14113000" />
+      <workItem from="1699099028464" duration="2068000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/node_modules/tailwindcss/stubs/tailwind.config.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
