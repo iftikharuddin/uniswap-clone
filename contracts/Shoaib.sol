@@ -8,5 +8,6 @@ contract Shoaib is ERC20, Ownable {
 
   constructor() ERC20("Shoaib", "SHO"){
         _mint(msg.sender, 600000 * 10 ** decimals());
-    }
+  }
+
 }

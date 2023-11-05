@@ -8,5 +8,6 @@ contract Rayyan is ERC20, Ownable {
 
   constructor() ERC20("Rayyan", "RAY"){
         _mint(msg.sender, 800000 * 10 ** decimals());
-    }
+  }
+
 }
