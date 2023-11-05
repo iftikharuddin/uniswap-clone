@@ -1,17 +1,17 @@
 // Token addresses
-shoaibAddress = "0x0165878A594ca255338adfa4d48449f69242Eb8F";
-rayyanAddrss = "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853";
-popUpAddress = "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6";
+shoaibAddress= '0x3AeEBbEe7CE00B11cB202d6D0F38D696A3f4Ff8e';
+rayyanAddrss= '0xB2ff9d5e60d68A52cea3cd041b32f1390A880365';
+popUpAddress= '0xa68E430060f74F9821D2dC9A9E2CE3aF7d842EBe';
 
-SHO_RAY = "0xEED35b5e260d3Da1741B3967Ad15127A802a2d80";
+SHO_RAY= '0x61DC93C2938e50784B6972E9331691E20645CcC0';
 
 // Uniswap contract address
-wethAddress = "0xFCFE742e19790Dd67a627875ef8b45F17DB1DaC6";
-factoryAddress = "0x398E4948e373Db819606A459456176D31C3B1F91";
-swapRouterAddress = "0xbe18A1B61ceaF59aEB6A9bC81AB4FB87D56Ba167";
-nftDescriptorAddress = "0x25C0a2F0A077F537Bd11897F04946794c2f6f1Ef";
-positionDescriptorAddress = "0x01cf58e264d7578D4C67022c58A24CbC4C4a304E";
-positionManagerAddress = "0xd038A2EE73b64F30d65802Ad188F27921656f28F";
+wethAddress= '0x92b0d1Cc77b84973B7041CB9275d41F09840eaDd';
+factoryAddress= '0x996785Fe937d92EDBF420F3Bf70Acc62ecD6f655';
+swapRouterAddress= '0x1Dbbf529D78d6507B0dd71F6c02f41138d828990';
+nftDescriptorAddress= '0xf18774574148852771c2631d7d06E2A6c8b44fCA';
+positionDescriptorAddress= '0x9f62EE65a8395824Ee0821eF2Dc4C947a23F0f25';
+positionManagerAddress= '0x20BBE62B175134D21b10C157498b663F048672bA';
 
 const artifacts = {
   NonfungiblePositionManager: require("@uniswap/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json"),
@@ -37,7 +37,7 @@ async function getPoolData(poolContract) {
     tickSpacing: tickSpacing,
     fee: fee,
     liquidity: liquidity,
-    sqrtPriceX96: slot0[0],
+    sqrtPriceX96: slot0[0], // wot is dis?
     tick: slot0[1],
   };
 }
@@ -45,11 +45,14 @@ async function getPoolData(poolContract) {
 async function main() {
   const MAINNET_URL = "https://eth-mainnet.g.alchemy.com/v2/WVLSt5IbgWV6vZHiDtRgVZ92tx2E2zwv";
 
-  const WALLET_ADDRESS = "Address";
-  const WALLET_SECRET = "Your Wallet Private Key";
-  const provider = new ethers.providers.JsonRpcProvider(MAINNET_URL);
-  const wallet = new ethers.Wallet(WALLET_SECRET);
-  const signer = wallet.connect(provider);
+  // const WALLET_ADDRESS = "Address";
+  // const WALLET_SECRET = "Your Wallet Private Key";
+  // const provider = new ethers.providers.JsonRpcProvider(MAINNET_URL);
+  // const wallet = new ethers.Wallet(WALLET_SECRET);
+  // const signer = wallet.connect(provider);
+
+  const [owner, signer2] = await ethers.getSigners();
+  const provider = waffle.provider();
 
   const ShoaibContract = new Contract(
     shoaibAddress,
@@ -62,11 +65,11 @@ async function main() {
     provider
   );
 
-  await ShoaibContract.connect(signer).approve(
+  await ShoaibContract.connect(signer2).approve(
     positionManagerAddress,
     ethers.utils.parseEther("599900")
   );
-  await RayyanContract.connect(signer).approve(
+  await RayyanContract.connect(signer2).approve(
     positionManagerAddress,
     ethers.utils.parseEther("599900")
   );
@@ -130,7 +133,7 @@ async function main() {
   );
 
   const tx = await nonfungiblePositionManager
-    .connect(signer)
+    .connect(signer2)
     .mint(params, { gasLimit: "1000000" });
   const receipt = await tx.wait();
   console.log(receipt);

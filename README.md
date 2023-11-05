@@ -33,7 +33,8 @@ npx hardhat run scripts/deploy.js
 - Deploy Script For Uniswap Contract | Build Uniswap Clone Defi Project 2022 (IP)
 - Deploy Token Script Locally | Uniswap Clone Project 2020
 - Deploy Pool Scripts | Create Uniswap Pool Before Deploy Liquidity | Uniswap Clone Project 2022
-
+- Add Liquidity Script | Create Adding Liquidity Script On Uniswap Protocol | Uniswap Clone Defi 2022
+- Check Liquidity Script | Get All The Of Uniswap Liquidity Script | Build Uniswap Clone Project 2022
 
 # Packages installations:
 
