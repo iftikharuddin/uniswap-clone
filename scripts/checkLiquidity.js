@@ -1,4 +1,4 @@
-SHO_RAY = "0xEED35b5e260d3Da1741B3967Ad15127A802a2d80";
+SHO_RAY = "0xEED35b5e260d3Da1741B3967Ad15127A802a2d80"; // Todo - change
 
 const UniswapV3Pool = require("@uniswap/v3-core/artifacts/contracts/UniswapV3Pool.sol/UniswapV3Pool.json");
 const { Contract } = require("ethers");
