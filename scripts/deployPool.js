@@ -1,15 +1,16 @@
 // Token addresses
-shoaibAddress= '0x3AeEBbEe7CE00B11cB202d6D0F38D696A3f4Ff8e';
-rayyanAddrss= '0xB2ff9d5e60d68A52cea3cd041b32f1390A880365';
-popUpAddress= '0xa68E430060f74F9821D2dC9A9E2CE3aF7d842EBe';
+shoaibAddress= '0x1Dbbf529D78d6507B0dd71F6c02f41138d828990';
+rayyanAddrss= '0xf18774574148852771c2631d7d06E2A6c8b44fCA';
+popUpAddress= '0x9f62EE65a8395824Ee0821eF2Dc4C947a23F0f25';
 
 // Uniswap contract address
-wethAddress= '0x92b0d1Cc77b84973B7041CB9275d41F09840eaDd';
-factoryAddress= '0x996785Fe937d92EDBF420F3Bf70Acc62ecD6f655';
-swapRouterAddress= '0x1Dbbf529D78d6507B0dd71F6c02f41138d828990';
-nftDescriptorAddress= '0xf18774574148852771c2631d7d06E2A6c8b44fCA';
-positionDescriptorAddress= '0x9f62EE65a8395824Ee0821eF2Dc4C947a23F0f25';
-positionManagerAddress= '0x20BBE62B175134D21b10C157498b663F048672bA';
+wethAddress= '0x32cd5ecdA7f2B8633C00A0434DE28Db111E60636';
+factoryAddress= '0xbeC6419cD931e29ef41157fe24C6928a0C952f0b';
+swapRouterAddress= '0x55027d3dBBcEA0327eF73eFd74ba0Af42A13A966';
+nftDescriptorAddress= '0x9eb52339B52e71B1EFD5537947e75D23b3a7719B';
+positionDescriptorAddress= '0x92b0d1Cc77b84973B7041CB9275d41F09840eaDd';
+positionManagerAddress= '0x996785Fe937d92EDBF420F3Bf70Acc62ecD6f655';
+
 
 const artifacts = {
   UniswapV3Factory: require("@uniswap/v3-core/artifacts/contracts/UniswapV3Factory.sol/UniswapV3Factory.json"),
