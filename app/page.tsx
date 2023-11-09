@@ -8,10 +8,10 @@ import {SwapTokenContextProvider} from '../Context/SwapContext';
 export default function Home() {
   return (
       <div>
-          <SwapTokenContextProvider>
+
             <NavBar/>
             <HeroSection accounts="hey" tokenData="DATA" />
-          </SwapTokenContextProvider>
+
       </div>
   )
 }

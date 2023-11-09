@@ -1,5 +1,9 @@
+'use client';
+import React, { useState, useContext, useEffect } from "react";
+
 import type { Metadata } from 'next'
 import './globals.css'
+import {SwapTokenContextProvider} from '../Context/SwapContext';
 
 export const metadata: Metadata = {
   title: 'Uniswap Clone',
@@ -13,7 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+      <SwapTokenContextProvider>
+      {children}
+      </SwapTokenContextProvider>
+      </body>
     </html>
   )
 }
