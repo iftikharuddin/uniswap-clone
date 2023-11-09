@@ -38,8 +38,7 @@ npx hardhat run scripts/deploy.js
 - Connecting Uniswap Liquidity Function With Frontend | Build Uniswap Clone (Defi Web3.0 Project)
 - Swap Context Function | Build Uniswap Clone (Defi) Project 2022
 - Live | Uniswap Clone | Best Web3.0 Defi Project To Build
-- ...
-- ...
+- Display Uniswap Real Time Token Data From Mainnet | Testing Final Time Our Uniswap Clone Projects
 
 # Packages installations:
 

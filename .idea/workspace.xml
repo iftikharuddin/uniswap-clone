@@ -3,14 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="816d09fd-78f2-457e-9b35-0006d46aab06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Context/BooToken.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Context/LifeToken.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Context/SwapContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/Context/SwapContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Context/SwapMultiHop.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Context/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/Context/constants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/deployPool.js" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/deployPool.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/deploy.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deploy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Pools/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/Pools/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/addLiquidity.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/addLiquidity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/checkLiquidity.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/checkLiquidity.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/deployPool.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deployPool.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,6 +32,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/contracts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
@@ -82,7 +80,7 @@
       <workItem from="1699099028464" duration="5505000" />
       <workItem from="1699105285989" duration="1362000" />
       <workItem from="1699179311260" duration="1377000" />
-      <workItem from="1699453438920" duration="6092000" />
+      <workItem from="1699453438920" duration="8618000" />
     </task>
     <servers />
   </component>
