@@ -96,7 +96,7 @@ export const SwapTokenContextProvider = ({ children }) => {
         });
       });
 
-      // //GET LIQUDITY
+      // //GET LIQUIDITY
       const userStorageData = await connectingWithUserStorageContract();
       const userLiquidity = await userStorageData.getAllTransactions();
       console.log(userLiquidity);
@@ -194,6 +194,7 @@ export const SwapTokenContextProvider = ({ children }) => {
         tokenAmmountOne,
         tokenAmmountTwo
       );
+
       console.log(info);
 
       //ADD DATA

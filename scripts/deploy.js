@@ -18,9 +18,9 @@ async function main() {
   // const swapMultiHop = await SwapMultiHop.deploy();
   // console.log(` SwapMultiHop deployed contract Address ${swapMultiHop.target}`);
 
-  // const UserStorageData = await hre.ethers.getContractFactory("UserStorageData");
-  // const userStorageData = await UserStorageData.deploy();
-  // console.log(` deployed contract Address ${userStorageData.target}`);
+  const UserStorageData = await hre.ethers.getContractFactory("UserStorageData");
+  const userStorageData = await UserStorageData.deploy();
+  console.log(` deployed contract Address ${userStorageData.target}`);
 }
 
 main().catch((error) => {
